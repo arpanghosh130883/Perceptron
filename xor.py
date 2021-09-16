@@ -1,9 +1,8 @@
-from Perceptron.utils.all_utils import save_model, save_plot
+#from Perceptron.utils.all_utils import save_model, save_plot
 from utils.model import Perceptron
-from utils.all_utils import prepare_data
+from utils.all_utils import prepare_data, save_model, save_plot
 import pandas as pd
-import numpy as np
-
+#import numpy as np
 
 
 def main(data, eta, epochs, filename, plotfilename):
